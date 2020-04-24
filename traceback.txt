@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/options.rpy", line 164, in script
+    init python:
+  File "game/options.rpy", line 166, in <module>
+    setattr(config, "mouse", ("images/other/cursor.png", 0, 0), None)
+TypeError: setattr expected 3 arguments, got 4
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/options.rpy", line 164, in script
+    init python:
+  File "C:\Users\Daria S\Downloads\renpy-7.3.5-sdk.7z\renpy-7.3.5-sdk\renpy\ast.py", line 914, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Daria S\Downloads\renpy-7.3.5-sdk.7z\renpy-7.3.5-sdk\renpy\python.py", line 2028, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/options.rpy", line 166, in <module>
+    setattr(config, "mouse", ("images/other/cursor.png", 0, 0), None)
+TypeError: setattr expected 3 arguments, got 4
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+TTW 1.0
+Sat Apr 25 00:19:34 2020
