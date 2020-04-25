@@ -20,6 +20,14 @@ image side E14 = "images/sph/E14.png"
 image side E15 = "images/sph/E15.png"
 image side E161 = "images/sph/E161.png"
 image side E17 = "images/sph/E17.png"
+image side E18 = "images/sph/E18.png"
+image side E19 = "images/sph/E19.png"
+image side E20 = "images/sph/E20.png"
+image side E21 = "images/sph/E21.png"
+image side E22 = "images/sph/E22.png"
+image side E23 = "images/sph/E23.png"
+image side E24 = "images/sph/E24.png"
+image side E25 = "images/sph/E25.png"
 
 # Определение персонажей игры.
 
@@ -43,6 +51,14 @@ define el14 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, 
 define el15 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E15")
 define el161 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E161")
 define el17 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E17")
+define el18 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E18")
+define el19 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E19")
+define el20 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E20")
+define el21 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E21")
+define el22 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E22")
+define el23 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E23")
+define el24 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E24")
+define el25 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E25")
 
 define phone2 = Character(u"Мама", color="#ddbb00", window_left_padding=-300, window_right_padding=-300, window_background="images/sph/Z03.png" )
 image rh phone2 = "images/other/phone2m.png"
@@ -65,6 +81,14 @@ define elm14 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_le
 define elm15 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E15")
 define elm161 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E161")
 define elm17 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E17")
+define elm18 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E18")
+define elm19 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E19")
+define elm20 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E20")
+define elm21 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E21")
+define elm22 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E22")
+define elm23 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E23")
+define elm24 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E24")
+define elm25 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E25")
 
 
 define elm = Character('', color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z02.png")
@@ -82,6 +106,19 @@ image bg bg01b = "images/bg/bg01b.png"
 image bg bg02 = "images/bg/bg02.png"
 image bg bg03 = "images/bg/bg03.png"
 image bg bg04 = "images/bg/bg04.png"
+image bg bg041 = "images/bg/bg04.1.png"
+image bg bg042 = "images/bg/bg04.2.png"
+image bg bg05 = "images/bg/bg05.png"
+image bg bg06 = "images/bg/bg06.png"
+image bg bg07 = "images/bg/bg07.png"
+image bg bg08 = "images/bg/bg08.png"
+image bg bg09 = "images/bg/bg09.png"
+image bg bg10 = "images/bg/bg10.png"
+image bg bg11 = "images/bg/bg11.png"
+image bg bg12 = "images/bg/bg12.png"
+image bg bg13 = "images/bg/bg13.png"
+image bg bg131 = "images/bg/bg13.1.png"
+image bg bg14 = "images/bg/bg14.png"
 
 # Спрайты
 
@@ -238,34 +275,33 @@ label start:
 
     scene bg bg02 with dissolve
 
-    e "Отпуск - самое лучшее в мире слово."
-    e "И как бы банально не звучали мои слова, думаю, что каждый согласится со мной. Особенно, когда за окном открываются такие виды."
-    e "За созерцанием мелькающих мимо деревьев оставшаяся часть пути пролетела мгновенно."
-
     stop nature fadeout 3
 
-    e "Отбегав после высадки ещё пару километров – от перрона до гостиницы, пока заполняла и относила бланки при заселении, за багажом и тому подобным - я только поздним вечером добралась до купален."
+    e "Отпуск - самое лучшее в мире слово."
+    e "И как бы банально не звучали мои слова, думаю, что каждый согласится со мной. Особенно, когда за окном открываются такие виды."
+    elm15 "За созерцанием мелькающих мимо деревьев оставшаяся часть пути пролетела мгновенно, и я оглянуться не успела как мы приехали."
+    elm15 "Отбегав после высадки ещё пару километров – от перрона до гостиницы, пока заполняла и относила бланки при заселении, за багажом и тому подобным - я только поздним вечером добралась до купален."
 
     scene bg bg03 with dissolve
 
     play nature "sound/S04.ogg" fadein 1
 
-    e "Горячие озёра целебной воды и клубы пара, стелющиеся над водой."
-    e "Блаженство! Именно за этими ощущениями я и ехала в такую даль."
-    e "Прекрасное ночное небо, тихий шелест листвы. Умиротворяет."
-    e "Всё это, несомненно, стоит тех усилий, что были потрачены на заработок средств для поездки."
-    e "Всё же, работая в парикмахерской, миллионов не заработаешь. И мне приходилось постоянно экономить."
+    elm161 "Горячие озёра целебной воды и клубы пара, стелющиеся над водой."
+    elm161 "Блаженство! Именно за этими ощущениями я и ехала в такую даль."
+    elm161 "Прекрасное ночное небо, тихий шелест листвы. Умиротворяет."
+    elm161 "Всё это, несомненно, стоит тех усилий, что были потрачены на заработок средств для поездки."
+    elm17 "Всё же, работая в парикмахерской, миллионов не заработаешь. И мне приходилось постоянно экономить."
 
     stop nature fadeout 2
 
-    e "Кстати, об экономии. Не пора ли мне подкрепиться?"
+    el18 "Кстати, об экономии. Не пора ли мне подкрепиться?"
 
     play nature "sound/S05.ogg" fadein 3
 
-    scene bg bg04 with dissolve
+    scene bg bg041 with dissolve
 
-    e "Я так засиделась на источниках, что чуть было не пропустила ужин!"
-    e "Это была бы катастрофа! С дороги у меня ужасно разыгрался аппетит."
+    elm19 "Я так засиделась на источниках, что чуть было не пропустила ужин!"
+    elm19 "Это была бы катастрофа! С дороги у меня ужасно разыгрался аппетит."
 
     menu:
         "Итак, что же мне взять из того, что ещё осталось?"
@@ -294,13 +330,14 @@ label start:
                 yalign 0.4 subpixel True
 
 
-    e "Спустя некоторое время за соседний столик садятся ещё двое постояльцев. Я волей-неволей прислушиваюсь к их бурному обсуждению."
+    elm21 "Спустя некоторое время за соседний столик садятся ещё двое постояльцев. Я волей-неволей прислушиваюсь к их бурному обсуждению."
 
     oth01 "… так вот, я о чём! Стоит сходить посмотреть."
     oth02 "Ты смеёшься?! Тащиться в горы, в гущу леса ради какой-то пещеры?"
     oth01 "Не просто пещеры, но с волшебным озером в придачу. Говорят, в той пещере есть светящееся озеро невероятной красоты. И тот, кто искупается в нём, будет несметно богат."
     oth02 "Ха, и ты в это веришь?"
     oth01 "Конечно нет! Но озеро и вправду может быть очень красивым. А если светится оно благодаря камням или кристаллам, что на дне? Представь, как обрадуются девчонки из отдела продаж, если мы привезём им такие сувениры!"
+    e "Блин, я не знаю как сделать так, что бы изображение гг было постоянно, даже когда другие персы говорят. {w}Это даже в теории нереально. {w} Ну по крайней мере я не могу понять как это замутить."
     oth02 "Тут ты прав. Слушай, а тебе…."
 
     stop nature fadeout 2
