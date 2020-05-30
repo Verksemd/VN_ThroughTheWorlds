@@ -28,6 +28,13 @@ image side E22 = "images/sph/E22.png"
 image side E23 = "images/sph/E23.png"
 image side E24 = "images/sph/E24.png"
 image side E25 = "images/sph/E25.png"
+image side E26 = "images/sph/E26.png"
+image side E27 = "images/sph/E27.png"
+image side E28 = "images/sph/E28.png"
+image side E29 = "images/sph/E29.png"
+image side E30 = "images/sph/E30.png"
+image side E31 = "images/sph/E31.png"
+image side E32 = "images/sph/E32.png"
 
 # Определение персонажей игры.
 
@@ -59,6 +66,13 @@ define el22 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, 
 define el23 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E23")
 define el24 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E24")
 define el25 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E25")
+define el26 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E26")
+define el27 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E27")
+define el28 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E28")
+define el29 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E29")
+define el30 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E30")
+define el31 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E31")
+define el32 = Character(_(u'Элли'), color="#b1bab1", window_left_padding=0, window_background="images/sph/Z01.png", image="E32")
 
 define phone2 = Character(u"Мама", color="#ddbb00", window_left_padding=-300, window_right_padding=-300, window_background="images/sph/Z03.png" )
 image rh phone2 = "images/other/phone2m.png"
@@ -89,6 +103,13 @@ define elm22 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_le
 define elm23 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E23")
 define elm24 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E24")
 define elm25 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E25")
+define elm26 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E26")
+define elm27 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E27")
+define elm28 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E28")
+define elm29 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E29")
+define elm30 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E30")
+define elm31 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E31")
+define elm32 = Character(_(u''), color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z00.png", image="E32")
 
 
 define elm = Character('', color="#c8ffc0", what_prefix = "{i}", window_left_padding=0, window_background="images/sph/Z02.png")
@@ -101,6 +122,7 @@ image bg bbg = "images/bg/bbg.png"
 image bg day1 = "images/other/Day1.png"
 image bg bgd1 = "images/bg/bgd1.jpg"
 image bg SPC = "images/other/SPC.png"
+image bg SPT = "images/other/SPT.png"
 image bg bg01 = "images/bg/bg01.png"
 image bg bg01b = "images/bg/bg01b.png"
 image bg bg02 = "images/bg/bg02.png"
@@ -119,6 +141,17 @@ image bg bg12 = "images/bg/bg12.png"
 image bg bg13 = "images/bg/bg13.png"
 image bg bg131 = "images/bg/bg13.1.png"
 image bg bg14 = "images/bg/bg14.png"
+image bg bg15 = "images/bg/bg15.png"
+image bg bg16 = "images/bg/bg16.png"
+image bg bg17 = "images/bg/bg17.png"
+image bg bg18 = "images/bg/bg18.png"
+image bg bg19 = "images/bg/bg19.png"
+image bg bg20 = "images/bg/bg20.png"
+image bg bg21 = "images/bg/bg21.png"
+image bg bg22 = "images/bg/bg22.png"
+image bg bg23 = "images/bg/bg23.png"
+image bg bg24 = "images/bg/bg24.png"
+image bg bg25 = "images/bg/bg25.png"
 
 # Спрайты
 
@@ -127,6 +160,17 @@ image sps stol1 = "images/other/stol1.png"
 image sps stol2 = "images/other/stol2.png"
 image sps stol3 = "images/other/stol3.png"
 image sps stol4 = "images/other/stol4.png"
+
+# CG
+
+image bg sg01 = "images/cg/cg01.png"
+
+# эффекты
+
+image ef ef07 = "images/bg/bg07.png"
+image ef ef08 = "images/bg/bg08.png"
+image ef ef09 = "images/bg/bg09.png"
+
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -337,7 +381,6 @@ label start:
     oth01 "Не просто пещеры, но с волшебным озером в придачу. Говорят, в той пещере есть светящееся озеро невероятной красоты. И тот, кто искупается в нём, будет несметно богат."
     oth02 "Ха, и ты в это веришь?"
     oth01 "Конечно нет! Но озеро и вправду может быть очень красивым. А если светится оно благодаря камням или кристаллам, что на дне? Представь, как обрадуются девчонки из отдела продаж, если мы привезём им такие сувениры!"
-    e "Блин, я не знаю как сделать так, что бы изображение гг было постоянно, даже когда другие персы говорят. {w}Это даже в теории нереально. {w} Ну по крайней мере я не могу понять как это замутить."
     oth02 "Тут ты прав. Слушай, а тебе…."
 
     stop nature fadeout 2
@@ -352,12 +395,174 @@ label start:
     elm25 "И едва укрывшись одеялом моментально засыпаю."
 
 # ------------------------------ 2 day -------------------------------------
-    #тут нужна композиция, не знаю, есть ли где композиция Hotel
-    scene bg bg06
+    play music "music/Hotel.mp3" fadein 3.0
 
-    e "Хорошо выспавшись, я встаю ближе к двенадцати."
-    e "Не особо огорчившись из-за того, что столько проспала и пропустила завтрак, я выхожу из гостиницы."
-    el "Сейчас самое время хорошенько осмотреться!"
-    e "С такими планами я отправляюсь бродить по двору гостиницы."
+    scene bg bbg with dissolve
+
+    elm25 "Хорошо выспавшись, я встаю ближе к двенадцати."
+    elm25 "Не особо заморачиваясь, что столько проспала и пропустила завтрак, я быстренько одеваюсь и выхожу из номера."
+
+    scene bg bg06 with dissolve
+
+    el07 "Cамое время хорошенько осмотреться!"
+    elm07 "С такими планами я отправляюсь бродить по двору гостиницы."
+
+    stop music
+
+    ###
+    play nature "sound/Birdsong(N).mp3" fadein 2
+    scene bg bg05 with dissolve
+
+    elm07 "Выйдя на улицу, и свернув во внутренний двор я оказалась в саду. {w} Все выглядело очень красиво."
+    elm07 "Кусты обрамляли дорожку, что плавно извивалась через всю видимую часть двора, маленький прудик с миниатюрным мостиком и много деревьев."
+    elm07 "Всё для туристов."
+    elm12 "Один минус - безлюдно."
+    elm26 "Шатаясь туда-сюда, я понятия не имею, чем бы себя занять. {w}Всё-таки здесь безумно скучно."
+    elm26 "Из таких же отдыхающих мне встретилась лишь парочка пожилых людей и вчерашние ребята из столовой."
+    elm27 "Подышав ещё немного свежим воздухом, я отправляюсь на обед."
+
+    scene bg bbg with dissolve
+    stop nature
+    ###
+    play nature "sound/canteen(N).mp3"
+
+    elm21 "Во время еды мне вдруг вспоминается вчерашний разговор двух парней.{w} Кажется, они говорили о каком-то озере…"
+    elm21 "Точно! Об озере, что светится."
+    elm20 "Если подумать, то это не такое уж и плохое развлечение. Найти пещеру с невероятной красоты озером. Чем не поиск сокровищ?!"
+    elm09 "Прыснув от сових аргументов, я чуть не подавилась обедом. Мда-уж..."
+
+    stop nature
+
+    elm10 "Покончив с обедом, я беру на ресепшене карту местности, не стоит терять времени даром. Лучше отправиться на поиски пещеры с озером сегодня же!"
+
+    stop nature
+
+    ###
+    play nature "sound/forest day(N).mp3"
+    scene bg bg05 with dissolve
+
+    elm12 "К моему огорчению, пещер на карте обозначено несколько."
+    elm13 "Стоит поторопиться и выйти, как можно скорее, чтобы успеть найти нужное место до заката и не возвращаться потом в кромешной темноте."
+
+    scene bg bg07 with dissolve
+
+    $ renpy.pause(1.0)
+    play sound "sound/S06.ogg"
+    show ef ef07:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 2.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    play sound "sound/S06.ogg"
+    show ef ef07:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 2.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    play sound "sound/S06.ogg"
+    show ef ef07:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 2.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    scene bg bg08 with dissolve
+    $ renpy.pause(1.0)
+
+    play sound "sound/S06.ogg"
+    show ef ef08:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 2.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    play sound "sound/S06.ogg"
+    show ef ef08:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 2.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    play sound "sound/S06.ogg"
+    show ef ef08:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 2.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    stop nature
+
+    scene bg bg09 with dissolve
+    $ renpy.pause(1.0)
+
+    ###
+    play nature "sound/cave(N).mp3" fadein 2
+
+    elm14 "Отыскав пещеру, я замираю на месте, представляя себе - насколько же чудесным может оказаться озеро внутри. Эдакое маленькое чудо природы."
+    elm28 "Протискиваясь между острыми сколами камня, я начинаю немного нервничать. {w}Снаружи она выглядела более широкой, чем оказалось на самом деле. "
+    elm28 "Стараясь не поддаваться приступу клаустрофобии, я иду дальше."
+
+    show ef ef09:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 4.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    show ef ef09:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 4.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    show ef ef09:
+        zoom 1.0
+        alpha 1.0
+        linear 2.0 zoom 4.0
+        linear 2.0 alpha 0.0
+    hide ef with dissolve
+    $ renpy.pause(0.5)
+
+    elm11 "В конце прохода меня ожидает лишь небольшая зала. Не уверенна как это правильно назвать.{w} Грот или раскол, но озера тут явно нет, а значит тут нет того, что мне нужно."
+    elm23 "Расстроенная я бреду назад к выходу."
+
+    stop nature
+    scene bg bg07 with dissolve
+
+    elm12 "Ну, не всем везёт с первого раза."
+    el13 "Поищу другую пещеру, может, там меня настигнет удача!"
+
+    scene bg SPT with dissolve
+    $ renpy.pause(2.0)
+    scene bg bg10 with dissolve
+
+    ###
+    play nature "sound/forest night(N).mp3" fadein 2
+
+    el19 "Светящееся озёро. Ага. Тоже мне, чудо природы!"
+    elm19 "Обойдя приличный кусок леса, побывав в нескольких узких и тёмных пещерах с кучей пауков и летучих мышей, я так и не нашла нужное мне место."
+    elm19 "И верх идиотизма - я заблудилась с картой на руках."
+    elm19 "Топографический кретинизм – это не про меня, но и походами в детстве я не увлекалась."
+    elm23 "Днём ориентироваться помогало солнце, ну, по крайней мере, я думала, что двигалась в нужном направлении..."
+    elm23 "С наступлением же вечера я поблагодарила всех существующих богов за то, что додумалась взять с собой фонарик, мобильный уже пару часов назад перестал подавать признаки жизни."
+
+    scene bg bg11 with dissolve
 
     return
