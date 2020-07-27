@@ -581,4 +581,112 @@ label start:
 
     scene bg bg11 with dissolve
 
+    menu:
+        el19 "Так, теперь-то куда"
+        "Прямо":
+            play music "music/Cricket.mp3" fadein 1.0
+
+        "Налево":
+            play music "music/Cricket.mp3" fadein 1.0
+
+        "Направо":
+            play music "music/Cricket.mp3" fadein 1.0
+
+
+
+    elm08 "Не успела я пройти и парочки метров, как рядом со мной зашуршали кусты."
+
+    elm08 "Напрягшись, я замираю и стараюсь не издавать ни звука... В \“ответ\” тоже молчат."
+    elm08 "..."
+    elm08 "Через несколько долгих мгновений куда-то вбок стрелой летит, что-то очень маленькое."
+    elm08 "Настолько быстро, что я не успеваю и пикнуть."
+    el08 "Заяц?"
+    elm09 "Облегчённо выдохнув, я направляюсь дальше."
+
+    play sound "sound/coyote(N).mp3" fadein 0.1 loop
+
+    elm08 "Едва успев расслабиться я снова напрягаюсь. В ночном лесу ни минуты покоя!"
+    elm08 "Вой кого-то более крупного, напоминает мне, что тут могут водиться, не только безобидные комки меха."
+
+    play nature "sound/running in the woods(N).mp3" fadein 0.1
+    stop sound fadeout 5
+
+    menu:
+        el11 "Пора уносить ноги!"
+        "Прямо":
+            show ef ef09:
+                zoom 1.0
+                alpha 1.0
+                linear 2.0 zoom 4.0
+                linear 2.0 alpha 0.0
+            hide ef with dissolve
+            $ renpy.pause(0.5)
+
+            show ef ef09:
+                zoom 1.0
+                alpha 1.0
+                linear 2.0 zoom 4.0
+                linear 2.0 alpha 0.0
+            hide ef with dissolve
+            $ renpy.pause(0.5)
+
+            show ef ef09:
+                zoom 1.0
+                alpha 1.0
+                linear 2.0 zoom 4.0
+                linear 2.0 alpha 0.0
+            hide ef with dissolve
+            $ renpy.pause(0.5)
+
+        "Направо":
+            show ef ef09:
+                zoom 1.0
+                alpha 1.0
+                linear 2.0 zoom 4.0
+                linear 2.0 alpha 0.0
+            hide ef with dissolve
+            $ renpy.pause(0.5)
+
+            show ef ef09:
+                zoom 1.0
+                alpha 1.0
+                linear 2.0 zoom 4.0
+                linear 2.0 alpha 0.0
+            hide ef with dissolve
+            $ renpy.pause(0.5)
+
+            show ef ef09:
+                zoom 1.0
+                alpha 1.0
+                linear 2.0 zoom 4.0
+                linear 2.0 alpha 0.0
+            hide ef with dissolve
+            $ renpy.pause(0.5)
+
+    stop nature fadeout 1.0
+    elm "..."
+
+    play nature "sound/forest night(N).mp3" fadein 2
+
+    scene bg bg12 with dissolve
+
+    elm23 "Бежать по лесу. Не самая лучшая идея. Фонарик остался где-то в одном из особо колючих кустов."
+    elm11 "Дыхание сбилось моментально. А хлёсткие ветки оставили много мелких царапин."
+    elm04 "Боже, как же щипет и чешется!"
+    elm04 "Всё же мне стоит быть аккуратнее и тише - целее буду…"
+
+    stop music fadeout 2.0
+
+    elm29 "Собравшись с духом, я отправляюсь дальше."
+    elm29 "Прямо по курсу виднеются густые заросли."
+    elm26 "Окей, тогда направо."
+    elm26 "..."
+
+    scene bg bg10 with dissolve
+
+    elm26 "....."
+    elm26 "Как только адреналин от ночных пробежек проходит, мне становится холодно. Усиливающийся ветер не помогает согреться."
+    stop nature fadeout 2.0
+    elm30 "Больше никаких тупых идей, не в этой жизни!"
+
     return
